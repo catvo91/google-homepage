@@ -1,0 +1,181 @@
+* {
+  font-family: arial;
+}
+
+#header {
+	height: 70px;
+	width: 100%;
+	display: block;
+}
+
+#circle {
+	width:50px;
+	height: 50px;
+	border-radius: 100%;
+	display: block;
+	margin: 5px;
+	float: right;
+	background-color: #8865c7;
+	position: static;
+	margin-right: 10px;
+}
+
+#circle p {
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	: 
+}
+
+#note {
+	width:30px;
+	height: 30px;
+	border-radius: 100%;
+	display: block;
+	float: right;
+	background-color: #e4d0d0;
+	position: static;
+	margin: 15px;
+}
+#note svg {
+	margin: auto;
+	display:  block;
+	margin-top: 2px;
+}
+
+#dots {
+	width:30px;
+	height: 30px;
+	display: block;
+	float: right;
+	position: static;
+	margin: 15px 0px;
+}
+
+#note img {
+	height: 20px;
+	width: 20px;
+	display: block;
+	margin: auto;
+	padding-top: 5px;
+}
+
+#gmail {
+	width:30px;
+	height: 30px;
+	display: block;
+	float: right;
+	margin: 5px;
+	padding-top: 3px;
+}
+#images {
+	width:30px;
+	height: 30px;
+	display: block;
+	float: right;
+	padding-top: 3px;
+	margin: 5px 25px 5px 10px;
+}
+
+div > p {
+	text-align: center;
+	font-size: 12px;
+	color: grey;
+}
+
+a {
+	text-align: center;
+	font-size: 12px;
+	color: grey;
+	text-decoration: none;
+}
+
+
+body {
+	margin: 0;
+	position: relative;
+	width: 100%;
+	height: 90%;
+}
+
+#middle {
+	top: 150px;
+	padding-top: 20px;
+	position: relative;
+	width: 60%;
+	height: 50%;
+	margin: auto;
+}
+
+#middle img {
+  margin: auto;
+  display:  block;
+}
+
+#search {
+  display: block;
+  height: 35px;
+  padding-top: 20px;
+}
+
+input {
+  width: 60%;
+	position: absolute;
+  	left: 20%;
+	height: 35px;
+	border-color: #1593e8;
+	background-image: url(mic.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#buttons {
+	display: block;
+	position: relative;
+	padding-top: 15px;
+	text-align: center;
+}
+
+button {
+	height: 40px;
+	font-size: 12px;
+	font-weight:  bold;
+	color: #82696d;
+	border: 3px solid white;
+}
+#footer {
+	width: 100%;
+	height: 50px;
+	background-color: #efe6e6;
+	margin-top: 210px;
+}
+#settings {
+	float: right;
+	margin: auto;
+	padding-right: 42px;
+	width: 40%;
+}
+
+#settings li {
+	float: right;
+}
+
+#ad {float: left;width: 40%;}
+
+ul {
+	list-style-type: none;
+}
+
+#ad li {
+	float: left;
+}
+
+
+
+li {
+	display: inline;
+	padding: 0px 10px;
+	color: #887979;
+	font-size: 12px;
+}
+
